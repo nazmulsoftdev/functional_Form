@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@100&display=swap');
+
+*{
+ margin: 0px;
+ padding: 0px;   
+ box-sizing: border-box;
+}
+
+body{
+  background-color: #051937;
+}
+
+.form_wrap{
+  width: 270px;
+  height: 200px;
+  padding: 10px; 
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  bottom: 0px;
+  margin: auto;
+
+}
+
+
+
+.form_wrap form input[type="email"],input[type="password"]{
+  width: 100%;
+  padding: 6px;
+  border-radius: 3px;
+  border: none;
+  outline: none;
+  margin-bottom: 15px;
+  font-weight: bold;
+  font-family: 'Catamaran', sans-serif;
+  
+
+}
+
+.form_wrap form input[type="submit"]{
+  background-color: #0be881;
+  color: #fff;
+  padding: 6px 10px;
+  border-radius: 3px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  transition: all 0.5s;
+
+}
+
+.form_wrap form input[type="submit"]:hover{
+  background-color: #ff3f34;
+}
